@@ -3,11 +3,11 @@ module github.com/avorima/renovate-gomod-example
 go 1.17
 
 require (
-	k8s.io/client-go v0.23.0
+	k8s.io/client-go v0.23.4
 	sigs.k8s.io/controller-runtime v0.9.7
 )
 
-replace k8s.io/client-go => k8s.io/client-go v0.21.9
+replace k8s.io/client-go => k8s.io/client-go v0.23.4
 
 replace sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.9.7
 
