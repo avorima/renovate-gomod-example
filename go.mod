@@ -4,12 +4,12 @@ go 1.17
 
 require (
 	k8s.io/client-go v0.23.0
-	sigs.k8s.io/controller-runtime v0.9.7
+	sigs.k8s.io/controller-runtime v0.11.1
 )
 
 replace k8s.io/client-go => k8s.io/client-go v0.21.9
 
-replace sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.9.7
+replace sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.11.1
 
 require (
 	cloud.google.com/go v0.81.0 // indirect
